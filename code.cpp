@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+const int N=1e7;
+int arr[N];
 
 void sortedInsertion(int arr[],int size,int pos,int num);
 void sortedDeletion(int arr[],int size,int pos);
@@ -8,7 +10,7 @@ void sortedDeletion(int arr[],int size,int pos);
 //main function
 int main()
 {
-    int choice,arr[10000],size,i,pos,num;
+    int choice,size,i,pos,num;
     cout<<"This code is for sorted array\nEnter your choice\n1.For insertion\n2.For deletion\n3.For exit"<<endl;
     cin>>choice;
     cout<<"Enter the size of the arary"<<endl;
