@@ -13,16 +13,19 @@ int main()
     int choice,size,i,pos,num;
     cout<<"This code is for sorted array\nEnter your choice\n1.For insertion\n2.For deletion\n3.For exit"<<endl;
     cin>>choice;
-    cout<<"Enter the size of the arary"<<endl;
+    if(choice!=3){
+         cout<<"Enter the size of the arary"<<endl;
     cin>>size;
     cout<<"Enter the elements of the array"<<endl;
     for(i=0; i<size; i++)
     {
         cin>>arr[i];
     }
+    }
 
     while (choice!=3)
     {
+       
         cout<<"Enter the position of operation"<<endl;
         cin>>pos;
         if(pos<=0 || pos>size)
