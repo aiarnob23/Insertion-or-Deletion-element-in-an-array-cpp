@@ -51,12 +51,14 @@ int main()
 
             }
 
-            cout<<"Enter your choice\n1.For insertion\n2.For deletion\n3.For exit"<<endl;
-            cin>>choice;
             if(choice==3)
             {
                 break;
             }
+            
+            cout<<"Enter your choice\n1.For insertion\n2.For deletion\n3.For exit"<<endl;
+            cin>>choice;
+            
 
         }
 
